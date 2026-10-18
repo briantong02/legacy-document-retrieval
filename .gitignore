@@ -1,0 +1,61 @@
+# macOS
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+*.iml
+
+# Environment files
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage/
+.tox/
+.nox/
+.venv/
+venv/
+env/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+coverage/
+vite.svg
+
+# Generated backend/static assets if copied in locally
+backend/static/
+
+# Generated certificates: the corporate CA bundle (scripts/fetch_ca_cert.py) and the
+# self-signed TLS pair (make tls-cert). The CA certificate is public, but server-key.pem
+# is a private key and must never be committed.
+backend/certs/
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# Local database seed extracts. The development seed is built from production
+# records, so it stays on the machine that made it and is never committed.
+dummydata*.sql
+*.seed.sql
+
+# Source presentations. Large binaries carrying document metadata; the rendered
+# screenshots under docs/screenshots/ are what the documentation references.
+docs/*.pptx
+
+# TypeScript incremental build state
+*.tsbuildinfo

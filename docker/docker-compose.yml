@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: docker/backend.Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - ../backend/.env.development
+    # Active Directory sign-in binds over LDAPS, so the container has to be able to
+    # validate the domain controller certificate. Mount the corporate CA bundle and
+    # point LDAP_CA_CERT_FILE at the container path below. Uncomment on APPHOST01.
+    # volumes:
+    #   - /etc/ssl/corp-ca.pem:/etc/ssl/certs/corp-ca.pem:ro
