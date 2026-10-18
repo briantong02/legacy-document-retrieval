@@ -76,7 +76,7 @@ returns to the results list with the search and its results intact.
 
 <img src="docs/screenshots/06-document-viewer.png" width="900" alt="PDF document viewer overlay" />
 
-> All data shown above is fabricated for documentation. See [Screenshots](#screenshots).
+> Every value shown above is placeholder data. See [Screenshots](#screenshots).
 
 ---
 
@@ -307,9 +307,14 @@ pair are all ignored by git.
 
 ## Screenshots
 
-The screenshots in `docs/screenshots/` are captured from the real frontend driven by
-Playwright, against a stub API that returns fabricated rows. Every supplier, invoice number,
-amount and person in them is invented; none of it comes from the production archive.
+The screenshots in `docs/screenshots/` are captured from the real running frontend, driven
+by Playwright against a stub API that serves placeholder rows — not from the production
+system and not from mockups.
+
+Every value in them is a deliberate placeholder: supplier and invoice numbers are
+`SAMPLE-0001`, document ids are all-zero GUIDs, the signed-in user is `Sample User`, and the
+document in the viewer is a watermarked specimen. Nothing in the archive, and no real
+supplier, customer, amount or person, appears anywhere in them.
 
 ---
 

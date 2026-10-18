@@ -15,10 +15,10 @@ export function ArRegistration() {
         },
       ]}
       columns={[
-        { key: "RESOURCENAME", label: "RESOURCENAME", width: "5rem" },
-        { key: "RESOURCECONTENT", label: "RESOURCECONTENT", width: "20rem" },
-        { key: "LASTCHANGEDUSERID", label: "LASTCHANGEDUSERID", width: "5rem" },
-        { key: "RESOURCEID", label: "RESOURCEID", width: "5rem" },
+        { key: "RESOURCENAME", label: "Document", width: "5rem" },
+        { key: "RESOURCECONTENT", label: "Summary", width: "20rem" },
+        { key: "LASTCHANGEDUSERID", label: "Changed By", width: "5rem" },
+        { key: "RESOURCEID", label: "Document ID", width: "5rem" },
       ]}
     />
   );

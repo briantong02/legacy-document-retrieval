@@ -15,11 +15,11 @@ export function SupplierMasterForms() {
         },
       ]}
       columns={[
-        { key: "RESOURCENAME", label: "RESOURCENAME" },
-        { key: "RESOURCECONTENT", label: "RESOURCECONTENT" },
-        { key: "LASTCHANGEDUSERID", label: "LASTCHANGEDUSERID" },
-        { key: "LASTCHANGEDTS", label: "LASTCHANGEDTS" },
-        { key: "RESOURCEID", label: "RESOURCEID" },
+        { key: "RESOURCENAME", label: "Document" },
+        { key: "RESOURCECONTENT", label: "Summary" },
+        { key: "LASTCHANGEDUSERID", label: "Changed By" },
+        { key: "LASTCHANGEDTS", label: "Last Changed" },
+        { key: "RESOURCEID", label: "Document ID" },
       ]}
     />
   );

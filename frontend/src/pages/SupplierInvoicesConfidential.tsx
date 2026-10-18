@@ -29,13 +29,13 @@ export function SupplierInvoicesConfidential() {
         },
       ]}
       columns={[
-        { key: "M3_Date", label: "M3_Date" },
-        { key: "M3_Supplier_Invoice_No", label: "M3_Supplier_Invoice_No" },
-        { key: "RESOURCENAME", label: "RESOURCENAME" },
-        { key: "RESOURCECONTENT", label: "RESOURCECONTENT" },
-        { key: "LASTCHANGEDUSERID", label: "LASTCHANGEDUSERID" },
-        { key: "LASTCHANGEDTS", label: "LASTCHANGEDTS" },
-        { key: "RESOURCEID", label: "RESOURCEID" },
+        { key: "M3_Date", label: "Invoice Date" },
+        { key: "M3_Supplier_Invoice_No", label: "Invoice #" },
+        { key: "RESOURCENAME", label: "Document" },
+        { key: "RESOURCECONTENT", label: "Summary" },
+        { key: "LASTCHANGEDUSERID", label: "Changed By" },
+        { key: "LASTCHANGEDTS", label: "Last Changed" },
+        { key: "RESOURCEID", label: "Document ID" },
       ]}
     />
   );

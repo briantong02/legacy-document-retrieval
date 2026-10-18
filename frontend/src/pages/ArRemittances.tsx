@@ -29,12 +29,12 @@ export function ArRemittances() {
         },
       ]}
       columns={[
-        { key: "Payment#", label: "Payment#" },
-        { key: "CREATETS", label: "CREATETS" },
-        { key: "RESOURCENAME", label: "RESOURCENAME" },
-        { key: "RESOURCECONTENT", label: "RESOURCECONTENT" },
-        { key: "LASTCHANGEDUSERID", label: "LASTCHANGEDUSERID" },
-        { key: "RESOURCEID", label: "RESOURCEID" },
+        { key: "Payment#", label: "Payment #" },
+        { key: "CREATETS", label: "Created" },
+        { key: "RESOURCENAME", label: "Document" },
+        { key: "RESOURCECONTENT", label: "Summary" },
+        { key: "LASTCHANGEDUSERID", label: "Changed By" },
+        { key: "RESOURCEID", label: "Document ID" },
       ]}
     />
   );
